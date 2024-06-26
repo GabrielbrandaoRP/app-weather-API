@@ -9,6 +9,7 @@ body{
   color: #fff;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -79,4 +80,33 @@ main #tempo-info .tempo-dados span{
 }
 img{
   width: 70px;
+}
+
+footer{
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  & span{
+    & a{
+      text-decoration: none;
+      color: #1e598a;
+    }
+  }
+}
+
+.box-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+  & img{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid #1e598a;
+  }
 }
